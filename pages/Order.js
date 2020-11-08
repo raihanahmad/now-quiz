@@ -72,7 +72,7 @@ function Order() {
     // console.log(orderData)
 
 
-    axios.post('http://localhost:3000/api/order', orderData, {
+    axios.post('https://now-quiz.vercel.app/api/order', orderData, {
       headers: { token: token }
     })
       .then(res => {
