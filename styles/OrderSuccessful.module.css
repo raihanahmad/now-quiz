@@ -1,0 +1,31 @@
+.order_successful_box {
+  background-color: #ffffff;
+  padding: 40px 50px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.order_successful_box p {
+  color: #81c91d;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.order_successful_box button {
+  background: #81c91d;
+  border-radius: 13px;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.order_successful_box button:hover {
+  background-color: #75b61b;
+}

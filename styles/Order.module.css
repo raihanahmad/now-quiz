@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Navbar */
+.navbar {
+  background: #ffffff;
+  width: 100%;
+  position: sticky;
+  display: flex;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  justify-content: flex-end;
+  padding: 12px 40px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .navbar_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .navbar_container .logout_btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #81c91d;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.navbar .navbar_container .logout_btn:hover {
+  background-color: #75b61b;
+}
+
+/* Order From */
+.order_form_textarea {
+  background: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid #d5d5d5;
+  padding: 20px;
+  margin-bottom: 2rem;
+}
+
+.order_form_textarea textarea {
+  background: #f9f9f9;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  border: none;
+  outline: none;
+  border: 1px dashed #f9f9f9;
+  color: #353942;
+  line-height: 1.4;
+  resize: vertical;
+  font-family: "Montserrat", sans-serif;
+}
+
+.order_form_textarea textarea:focus {
+  border: 1px dashed #d5d5d5;
+}
+
+.order_form_container {
+  width: 500px;
+  margin: auto;
+  padding: 30px 10px 25px;
+}
+
+@media (max-width: 500px) {
+  .order_form_container {
+    width: 380px;
+  }
+}
+
+@media (max-width: 380px) {
+  .order_form_container {
+    width: unset;
+    max-width: 380px;
+  }
+}
+
+.order_form_wrap {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #d5d5d5;
+  /* box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.1); */
+}
+
+.order_form_wrap h1 {
+  text-align: center;
+  color: #353942;
+  margin-bottom: 2rem;
+}
+
+.order_form_wrap .order_form_group {
+  margin-bottom: 1.3rem;
+}
+
+.order_form_wrap .order_form_group label {
+  display: block;
+  color: #353942;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.order_form_wrap .order_form_group input::placeholder,
+.order_form_wrap .order_form_group textarea::placeholder {
+  color: #c2c2c2;
+  font-size: 1rem;
+}
+
+.order_form_wrap .order_form_group input,
+.order_form_wrap .order_form_group textarea {
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 16px;
+  background: #f2f3f5;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #353942;
+}
+
+.order_form_wrap .order_form_group textarea {
+  resize: vertical;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.order_form_wrap .order_form_group input:focus,
+.order_form_wrap .order_form_group textarea:focus {
+  background: #f2f3f5;
+  border: 1px solid #9b9b9b;
+}
+
+.order_form_wrap button {
+  display: block;
+  width: 100%;
+  background: #81c91d;
+  border-radius: 5px;
+  padding: 16px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 2.2rem 0 1rem;
+  transition: 0.3s;
+  font-size: 1rem;
+  font-weight: 700;
+  box-shadow: 0px 5px 12px -2px rgba(140, 211, 41, 0.7);
+}
+
+.order_form_wrap .order_btn:hover {
+  background: #75b61b;
+}
+
+.order_form_wrap .autofill_btn {
+  background: rgb(76, 110, 244);
+  box-shadow: 0px 5px 12px -2px rgba(76, 110, 244, 0.7);
+  margin-bottom: 2rem;
+}
+
+.order_form_wrap .autofill_btn:hover {
+  background: rgb(53, 85, 214);
+}
+
+.already_account_text {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #353942;
+}
+
+.already_account_text a {
+  color: #4c6ef4;
+  text-decoration: none;
+}
+
+.already_account_text a:hover {
+  text-decoration: underline;
+}
