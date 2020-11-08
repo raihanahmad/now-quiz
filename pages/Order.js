@@ -21,7 +21,7 @@ function Order() {
     let getOrderDetails = getOrderDetailsEl.current.value;
 
     if(getOrderDetails === '' ) {
-     window.alert('Please fill the textare')
+     window.alert('Please fill the textarea')
 
     } else {
       let orderArray = getOrderDetails.match(/[^\r\n]+/g);
